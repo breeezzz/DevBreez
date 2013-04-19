@@ -1,3 +1,8 @@
+<body>
+	<!-- Main content area -->
+	<div class="row">
+		<div class="large-8 columns">
+
 		<!-- Information Area -->
 		<h3>The Information Station</h3>
 			<div class="row">

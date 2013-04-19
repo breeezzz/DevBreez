@@ -5,23 +5,26 @@
 ** Version: 1.0.0
 */
 
+//HEADER
 function get_static_header()
 {
 ob_start();
 echo <<<EOT
-	<html>
-	<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
-	<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-	<head>
+<html>
+<head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
+<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />  
 	<link rel="stylesheet" href="css/foundation.css" />  
-	<link rel="stylesheet" href="css/breez-style.css" />  
+	<link rel="stylesheet" href="css/breez-style.css" />
+<!-- JAVASCRIPT -->
 	<script src="js/vendor/custom.modernizr.js"></script>
+<!-- TITLE -->
 	<title>Breez Development</title>
-	</head>
-	<header>
+</head>
+<!-- HEADER -->
+<header>
 	<!-- Title and information area -->
 	<div class="row">
 		<div class="large-12 columns">
@@ -31,34 +34,8 @@ $header = ob_get_clean();
 echo $header;
 }
 
-function get_static_content()
-{
-ob_start();
-echo <<<EOT
-		</div>
-	</div>
-	</header>
-<body>
-	<!-- Main content area -->
-	<div class="row">
-		<div class="large-8 columns">
-EOT;
-$content = ob_get_clean();
-echo $content;
-}
 
-function get_static_footer()
-{
-ob_start();
-echo <<<EOT
-		</div>
-	</div>
-	</body>
-EOT;
-$footer = ob_get_clean();
-echo $footer;
-}
-
+//SIDEBAR
 function get_static_sidebar()
 {
 ob_start();
