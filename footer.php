@@ -6,31 +6,25 @@
 ***
 **/
 ?>
-	</div>
-</div>
+</div></div>
 
-<!-- *** Javascript Stuff *** -->
-<!-- Check for Zepto support, load jQuery if necessary -->
-<script>
-document.write('<script src=js/vendor/'
-	+ ('__proto__' in {} ? 'zepto' : 'jquery')
-	+ '.js><\/script>');
-</script>
-<!-- Load all Foundation 4 javascript goodies -->
-<script src="js/foundation.js"></script>
+<!-- Start of footer javascript calls -->
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
 
+  <script src="js/foundation.js"></script>
+   
+  <script>
+    $(document).foundation();
+  </script>
 
 <!-- Start the footer element -->
 <footer>
-<h3>Hello, World!</h3>
+	<div class="footer-contact hidden">
+			<a href="mailto:brz1080@gmail.com">Contact @admin</a>
+	</div>
 </footer>
-
-
-
-<!-- Loads all Foundation 4 javascript -->
-<script>
-$(document).foundation();
-</script>
-</body>
-</html>
 <!-- End of the line, baby -->

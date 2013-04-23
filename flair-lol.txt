@@ -1,0 +1,6 @@
+/***
+//  Name: Configuration File
+//	Location: ../resources/config.php
+//	Description:  — Main configuration file. Should store site wide settings.
+//  Notes: Include this in head.php
+***/

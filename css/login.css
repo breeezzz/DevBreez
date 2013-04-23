@@ -1,0 +1,114 @@
+form {
+    width: 1000px;
+}
+
+.field {
+    overflow: auto;
+    padding: 0 0 0.5em;
+}
+
+label,
+.checkbox p,
+.radio p {
+    padding: 0.2em 0 0;
+    float: left;
+    width: 180px;
+}
+
+input,
+select {
+    float: left;
+    width: 160px;
+}
+
+select {
+    width: 163px;
+}
+
+.error .messages,
+.error .messages li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.error .messages li {
+    padding: 0.1em 0 0 1.5em;
+    color: #b92d23;
+}
+
+.error input {
+    color: #b92d23;
+}
+
+.success {
+	/*background: url('/internal/img/success_icon.png') no-repeat;*/
+}
+
+.error {
+	/*background: url('/internal/img/error_icon.png') no-repeat;*/
+}
+
+fieldset {
+    border: none;
+}
+
+.checkbox p,
+.checkbox .inputs {
+    float: left;
+}
+
+.checkbox p {
+    padding: 0;
+    margin: 0 0 1em;
+}
+
+.checkbox .inputs {
+    width: 165px;
+}
+
+.checkbox .inputs,
+.checkbox .inputs li {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+.checkbox .inputs li {
+    margin: 0 0 0.3em;
+}
+
+.checkbox li label,
+.checkbox li input {
+    display: inline;
+    float: none;
+    width: auto;
+}
+
+.button input {
+    width: auto;
+}
+
+.validate_any {
+    position: relative;
+}
+
+.validate_any.error {
+    padding-top: 2em;
+    background-position: 0 0.2em;
+}
+
+#terms_block {
+    background-position: 205px 0.2em;
+}
+
+#terms_block .messages li {
+    padding-top: 0.2em;
+}
+
+.validate_any .messages {
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+}

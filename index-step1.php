@@ -1,24 +1,26 @@
 <!-- Start Building Website -->
-
 	<!--header-->
 	<?php 
 	include('header.php')
 	?>
 	<?php 
-	include('header-main.php')
+	include('header-live.php')
+	?>
+	<?php 
+	include('functions.php')
 	?>
 
 	<!--content-->
-	<?php
-	include('content.php')
+	<?php 
+	include('content-step1.php')
 	?>
 
 	<!--sidebar-->
-	<?php
-	include('sidebar.php')
+	<?php 
+	include('sidebar-live.php')
 	?>
 
 	<!--footer-->
-	<?php
+	<?php 
 	include('footer.php')
 	?>

@@ -1,0 +1,76 @@
+<?php
+/***
+// Name: [BreezDev] - Login Application - Registration Form
+// Description: Form for user registration
+// Version: 1.0.0
+***/
+?>
+<html>
+<head>    
+<title>Registration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="/internal/css/login.css" />  
+</head>
+<body>
+<div id="page">
+<div id="content">
+
+	<form action="register.php" id="client" class="validate" method="post">
+	  <fieldset>
+
+		<div class="field">
+		  <label for="first_name">Full Name:</label>
+		  <input type="text" name="name" id="name" class="required name">
+		</div>
+
+		<div class="field">
+		  <label for="email">Email:</label>
+		  <input type="text" name="email" id="email" class="required email">
+		</div>
+
+		<div class="password">
+			<div class="field error">
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" class="required password min-length_8">
+			</div>
+
+			<div class="field">
+				<label for="password_confirmation">Confirm</label>
+				<input type="password" name="password_confirmation" id="password_confirmation" class="confirmation-of_password" title="Please enter the exact same password">
+			</div>
+		</div>
+
+	  </fieldset>
+
+	  <fieldset>
+		<div class="button" id="next"><input type="submit" value="Submit" class="action"></div>
+		<div class="button" id="back"><input type="submit" value="Back"></div>
+	  </fieldset>
+	</form>
+</div>
+</div>
+
+<!-- Load prototype.js -->
+<script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js"></script>
+<!-- Load custom validation script -->
+<script type="text/javascript" src="/internal/js/validation.js"></script>
+
+<!-- Adding values to validation script -->
+<script type="text/javascript">
+  v2.Field.prototype.successClass = 'success';
+  v2.Field.prototype.instant = true;
+  v2.Field.prototype.displayErrors = 1;
+  v2.Field.prototype.positionErrorsAbove = false;
+  v2.Fieldset.prototype.positionErrorsAbove = false;
+
+  // Password validator
+  v2.Validator.add({
+    name: 'password',
+    message: 'Please use a number and at least one upper and lowercase character.',
+    fn: function(field, value, params) {
+      return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$/.test(value);
+    }
+  });
+</script>
+</body>
+</html>
