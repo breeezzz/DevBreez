@@ -9,7 +9,7 @@
 <header>
 <!-- Home icon button -->
 <div class="home-icon">
-	<a href="/internal/"><img src="img/icon-home.png"></a>
+	<a href="/"><img src="../../public_html/img/icon-home.png"></a>
 </div>
 
 <!-- Title and information area -->
@@ -20,9 +20,4 @@
 		<hr />
 	</div>
 </div>
-<?php 
-include('admin-panel.php');
-$secure = true;
-get_admin_panel($secure);
- ?>
 </header>

@@ -11,11 +11,11 @@
 <!-- Start of footer javascript calls -->
   <script>
   document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  ('__proto__' in {} ? '../../public_html/js/vendor/zepto' : '../../public_html/js/vendor/jquery') +
   '.js><\/script>')
   </script>
 
-  <script src="js/foundation.js"></script>
+  <script src="../../public_html/js/foundation.js"></script>
    
   <script>
     $(document).foundation();

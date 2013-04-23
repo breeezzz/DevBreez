@@ -43,11 +43,11 @@ select {
 }
 
 .success {
-	/*background: url('/internal/img/success_icon.png') no-repeat;*/
+	/*background: url('./img/success_icon.png') no-repeat;*/
 }
 
 .error {
-	/*background: url('/internal/img/error_icon.png') no-repeat;*/
+	/*background: url('./img/error_icon.png') no-repeat;*/
 }
 
 fieldset {

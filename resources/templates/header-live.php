@@ -10,5 +10,5 @@
 </header>
 
 	<div class="home-icon">
-		<a href="http://192.168.1.11/internal/"><img src="img/icon-home.png">
+		<a href="/"><img src="../../img/icon-home.png">
 	</div>

@@ -4,9 +4,9 @@
 <!-- Client Checklist -->
 	<h4>Checklist</h4>
 		<ul class="disc">
-			<li><a href="http://192.168.1.11/internal/index-step1.php" class="small button">Step 1: Information</a>
-			<li><a href="http://192.168.1.11/internal/index-step2.php" class="small button">Step 2: Design</a>
-			<li><a href="http://192.168.1.11/internal/index-step3.php" class="small button">Step 3: Feedback</a>
+			<li><a href="./index-step1.php" class="small button">Step 1: Information</a>
+			<li><a href="./index-step2.php" class="small button">Step 2: Design</a>
+			<li><a href="./index-step3.php" class="small button">Step 3: Feedback</a>
 			<li><a href="mailto:admin@windorbreez.com" class="small button">Contact</a></li>
 		</ul>
 

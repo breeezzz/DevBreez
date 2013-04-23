@@ -22,17 +22,17 @@
 
 		<div class="panel">
 		<p>Keep clients information consolidated and keep track of other important data.</p>
-		<a href="http://192.168.1.11/internal/index-step1.php" class="medium button">Client Information</a>
+		<a href="./index-step1.php" class="medium button">Client Information</a>
 		</div>
 
 		<div class="panel">
 		<p>Allow interaction between the entire team and the client.</p>
-		<a href="http://192.168.1.11/internal/index-step2.php" class="medium button">Client Design Tool</a>
+		<a href="./index-step2.php" class="medium button">Client Design Tool</a>
 		</div>
 
 		<div class="panel">
 		<p>Ongoing feedback tool use to have a dynamic discussion area between the team and our clients.</p>
-		<a href="http://192.168.1.11/internal/index-step3.php" class="medium button">Client Feedback Tool</a>
+		<a href="./index-step3.php" class="medium button">Client Feedback Tool</a>
 		</div>
 
 	</div>
