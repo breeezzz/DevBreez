@@ -1,1 +1,0 @@
-“logs” will contain our applications custom log files

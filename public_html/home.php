@@ -1,8 +1,6 @@
-<body>
-<div class="row">
-<div class="large-8 columns">
-<!-- 
-#Information Area -->
+<?php
+$welcome_client = '
+<!-- #Information Area -->
 <div id="main-title">
 <h3>Neat! But...how does this work?</h3>
 </div> 
@@ -30,7 +28,6 @@
 
 		</div>
 	</div>
-<!-- #End Information Area 
--->
-
-</div>
+<!-- #End Information Area -->
+';
+?>

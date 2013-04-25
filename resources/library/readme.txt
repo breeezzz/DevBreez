@@ -1,6 +1,17 @@
-//
-// library — Central location for all custom and third party libraries.
-//
+[Version]
+0.1.1
+[GitHub]
+http://github.com/breeezzz/BreezDev
 
-- functions.php
-- extra-widgets.php
+/***
+//
+//	[BreezDev]
+//  Description: Making my life easier...
+//  Developer: Benjamin Rees
+//  /: http://windorbreez.com
+//  @: brz1080@gmail.com
+//
+***/
+
+//*** 
+//	Changelist

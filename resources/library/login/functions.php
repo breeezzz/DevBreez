@@ -1,6 +1,11 @@
 <?php
-// ACTION MESSAGES
-	// Registration/Validation error
+//#
+//*	Login Functions
+//#
+
+//### [Registration Messsages]
+
+//# Registration/Validation error
 function registration_error() {
 echo <<<EOT
 <h1>Well, this is embarassing...</h1>
@@ -11,11 +16,11 @@ echo <<<EOT
 EOT;
 }
 
-	// Registration/Validation success 
+//# Registration/Validation success
 function registration_success() {
 echo <<<EOT
 <h1>Successfully Registered. Thank you!</h1>
-<p><a href="/internal/login/">Back to login page</a></p>
+<p><a href="/webapp/resources/library/login/login.html">Back to login page</a></p>
 EOT;
 }
 

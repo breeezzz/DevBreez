@@ -1,25 +1,23 @@
 <?php
 /*
-***
-**	Name: Main Footer
-**	Description: The template for displaying the footer.
-***
+//	Description: The template for displaying the footer.
 **/
 ?>
-</div></div>
-
+<!-- Closing elements from home.php -->
+</div>
+</body>
 <!-- Start of footer javascript calls -->
-  <script>
+ <script>
   document.write('<script src=' +
-  ('__proto__' in {} ? '../../public_html/js/vendor/zepto' : '../../public_html/js/vendor/jquery') +
+  ('__proto__' in {} ? '/webapp/public_html/js/vendor/zepto' : '/public_html/js/vendor/jquery') +
   '.js><\/script>')
-  </script>
+</script>
 
-  <script src="../../public_html/js/foundation.js"></script>
+<script src="/webapp/public_html/js/foundation.js"></script>
    
-  <script>
+<script>
     $(document).foundation();
-  </script>
+</script>
 
 <!-- Start the footer element -->
 <footer>
