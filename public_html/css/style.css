@@ -70,9 +70,8 @@
 	background:#FFF;
 }
 
-.iframe-class {
-    margin-right: 1px;
-    border: 3px solid #000;
+#iframe-panel {
+	display:none;
 }
 
 .tool-selection{

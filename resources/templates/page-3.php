@@ -20,6 +20,15 @@
 
 					</div>
 
+					<div class="panel">
+					<a onclick="hideElement('iframe-panel')" class="tool-selection medium button">Start!</a>
+					</div>
+
+					<div id="iframe-panel">
+						<div class="panel">
+								<iframe src="https://docs.google.com/forms/d/1VFbsfBywxhuSVpcLYyy2pchlJoJdRaLoWys914g3sHk/viewform?embedded=true" width="900" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+						</div>
+					</div>
 
 				<div class="panel">
 					<a class="tool-selection medium alert button" href="../public_html/page.php">Done</a>

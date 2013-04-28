@@ -11,6 +11,7 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 	<script src="../public_html/js/vendor/custom.modernizr.js"></script>
+	<script src="../public_html/js/show-hide.js"></script>
 
 <title>Breez Development</title>
 </head>

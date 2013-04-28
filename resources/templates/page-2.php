@@ -22,35 +22,35 @@
 					<div class="panel">
 					<ul data-orbit>
 						  <li>
-							<img src="/slider/img/img0.jpg" />
+							<img src="/webapp/public_html/img/content/img0.jpg" />
 							<div class="orbit-caption"><h3>Template 1</h3></div>
 						  </li>
 						  <li>
-							<img src="/slider/img/img1.jpg" />
+							<img src="/webapp/public_html/img/content/img1.jpg" />
 							<div class="orbit-caption"><h4>Template 1: NavBar, Header, Content Area, Info Boxes</h4></div>
 						  </li>
 						  <li>
-							<img src="/slider/img/img2.jpg" />
+							<img src="/webapp/public_html/img/content/img2.jpg" />
 							<div class="orbit-caption"><h3>Template 2</h3></div>
 						  </li>
 						  <li>
-							<img src="/slider/img/img3.jpg" />
+							<img src="/webapp/public_html/img/content/img3.jpg" />
 							<div class="orbit-caption"><h4>Template 2: Content Area, Widgets, Footer</h4></div>
 						  </li>
 						  <li>
-							<img src="/slider/img/img4.jpg" />
+							<img src="/webapp/public_html/img/content/img4.jpg" />
 							<div class="orbit-caption"><h3>Template 3</h3></div>
 						  </li>
 						  <li>
-							<img src="/slider/img/img5.jpg" />
+							<img src="/webapp/public_html/img/content/img5.jpg" />
 							<div class="orbit-caption"><h4>Template 3: Widgets, Content Area, SideBar</h4></div>
 						  </li>
 						  <li>
-							<img src="/slider/img/img6.jpg" />
+							<img src="/webapp/public_html/img/content/img6.jpg" />
 							<div class="orbit-caption"><h3>Template 4</h3></div>
 						  </li>
 						  <li>
-							<img src="/slider/img/img7.jpg" />
+							<img src="/webapp/public_html/img/content/img7.jpg" />
 							<div class="orbit-caption"><h4>Template 4: Content Area, Footer</h4></div>
 						  </li>
 					</ul>
@@ -81,6 +81,16 @@
 					<p>At the bottom of your website, footers can be used for a number of different functions. When a user reaches the bottom of a page's content, a footer can serve the same navigational purpose as a header by containing links and menus. A website should always aim to keep users engaged, and the footer is a great way to guide people through your content.</p>
 
 				</div>
+
+					<div class="panel">
+					<a onclick="hideElement('iframe-panel')" class="tool-selection medium button">Start!</a>
+					</div>
+
+					<div id="iframe-panel">
+						<div class="panel">
+								<iframe src="https://docs.google.com/forms/d/1MWc8YNwD81TVoQ4qOwXggdCsG6RjiN1qN061I2JnlnI/viewform?embedded=true" width="900" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+						</div>
+					</div>
 
 
 				<div class="panel">
