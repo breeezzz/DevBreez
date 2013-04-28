@@ -7,9 +7,9 @@
     version: '4.0.0',
 
     settings: {
-      timer_speed: 10000,
+      timer_speed: 0,
       animation_speed: 500,
-      bullets: true,
+      bullets: false,
       stack_on_small: true,
       container_class: 'orbit-container',
       stack_on_small_class: 'orbit-stack-on-small',

@@ -1,14 +1,14 @@
 <div class="large-4 columns">
 <!-- Starting the sidebar -->
-
 <h3>The Sidebar</h3>
 	<div id="sidebar" class="panel">
-			<h4>Interaction</h4>
+			<h4>Client Interaction</h4>
 			<p>Dynamic interaction tools to allow for fluid feedback and consolidated information...or something.</p>
 			<ul class="disc">
-				<li><a href="#" class="small button">Client Information</a>
-				<li><a href="#" class="small button">Client Design Tool</a>
-				<li><a href="#" class="small button">Client Feedback Tool</a>
+				<li><a href="/webapp/public_html/page.php" class="small button">Client Home</a>
+				<li><a href="/webapp/public_html/page-1.php" class="small button">Client Information</a>
+				<li><a href="/webapp/public_html/page-2.php" class="small button">Client Design Tool</a>
+				<li><a href="/webapp/public_html/page-3.php" class="small button">Client Feedback Tool</a>
 				</li></ul>
 
 
@@ -37,7 +37,7 @@
 			<h5><u>Design</u></h5>
 				<ul class="disc">
 					<li><a href="http://css3generator.com/#" class="small button">CSS Generator</a>
-						<p>Generates crosss-browser CSS code.</p>
+						<p>Generates cross-browser CSS code.</p>
 
 					<li><a href="http://css3generator.com/#" class="small button">Hex color picker</a>
 						<p>Color picker that allows for easy color sharing.</p>

@@ -16,5 +16,5 @@
 		'setInIndexDotPhp' => $setInIndexDotPhp
 	);
 	
-	renderLayoutWithContentFile("home.php", $variables);
+	renderLayoutWithContentFile("page.php", $variables);
 ?>

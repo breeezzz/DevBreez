@@ -1,2 +1,1 @@
-<h1>Error</h1>
-<p>Welcome to the danger zone</p>
+<h1>ERROR YO</h1>
